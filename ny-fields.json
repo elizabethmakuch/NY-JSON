@@ -1,0 +1,196 @@
+{
+    "type": "object",
+    "title": "Basic Information About You",
+    "properties": {
+        "last_name": {
+            "type": "string",
+            "title": "Last Name",
+            "br_required": true
+        },
+        "first_name": {
+            "type": "string",
+            "title": "First Name",
+            "br_required": true
+        },
+        "middle_name": {
+            "type": "string",
+            "title": "Middle Initial"
+        },
+        "suffix": {
+            "type": "string",
+            "title": "Suffix",
+            "br_required": true
+        },
+        "birth_date": {
+            "type": "number",
+            "title": "Date of Birth",
+            "format": "date",
+            "br_required": true
+        },
+        "reg_address_section": {
+            "type": "string",
+            "title": "Residence Address",
+            "format": "title"
+        },
+        "reg_address_description": {
+            "type": "string",
+            "title": "Address where you live",
+            "format": "hidden-field"
+        },
+        "reg_address_line_1": {
+            "type": "string",
+            "title": "Residence Street Address",
+            "br_required": true
+        },
+        "reg_address_line_2": {
+            "type": "string",
+            "title": "Apt",
+            "br_required": true
+        },
+        "reg_city": {
+            "type": "string",
+            "title": "City",
+            "br_required": true
+        },
+        "reg_zipcode": {
+            "type": "number",
+            "title": "Zip Code",
+            "format": "zipcode",
+            "br_required": true
+        },
+        "reg_county": {
+            "type": "string",
+            "title": "County where you live",
+            "br_required": true
+        },
+        "email": {
+            "type": "string",
+            "title": "Email Address",
+            "format": "email"
+        },
+        "phone": {
+            "type": "number",
+            "title": "Phone Number",
+            "format": "phone-us"
+        },
+        "delivery_of_ballot_title": {
+            "type": "string",
+            "title": "Delivery of General Election Ballot (check one)",
+            "format": "title"
+        },
+        "deliver_to_me_checkbox": {
+            "type": "boolean",
+            "title": "Deliver to me in person at the board of elections",
+            "format": "checkbox"
+        },
+        "messenger_checkbox": {
+            "type": "boolean",
+            "title": "I authorize ___ to pick up my ballot at the board of elections (if yes, enter name of messenger below)",
+            "format": "checkbox"
+        },
+        "Messenger_full_name": {
+            "type": "string",
+            "title": "I authorize ___ to pick up my ballot at the board of elections (insert full name of messenger)"
+        },
+        "mail_checkbox": {
+            "type": "boolean",
+            "title": "Mail ballot to me (enter mailing address below)",
+            "format": "checkbox"
+        },
+        "mailing_info_title": {
+            "type": "string",
+            "title": "Ballot Mailing Address",
+            "format": "title"
+        },
+        "mail_info": {
+            "type": "string",
+            "title": "Address where your ballot will be mailed to",
+            "format": "hidden-field"
+        },
+        "mail_address_line_1": {
+            "type": "number",
+            "title": "Mailing Street Number",
+            "br_required": true
+        },
+        "mail_address": {
+            "type": "string",
+            "title": "Mailing Street Name",
+            "br_required": true
+        },
+        "mail_address_line_2": {
+            "type": "string",
+            "title": "Mailing Apt",
+            "br_required": true
+        },
+        "mail_city": {
+            "type": "string",
+            "title": "Mailing City",
+            "br_required": true
+        },
+        "mail_state": {
+            "type": "string",
+            "title": "Mailing State",
+            "br_required": true
+        },
+        "mail_zip": {
+            "type": "number",
+            "title": "Mailing Zip Code",
+            "format": "zipcode",
+            "br_required": true
+        },
+        "today_date": {
+            "type": "number",
+            "title": "Today's Date (Date of Signature)",
+            "format": "date",
+            "br_required": true
+        },
+        "ballot_request_election_type_title": {
+            "type": "string",
+            "title": "Absentee ballot(s) request for the following election(s): check one of the following",
+            "format": "title"
+        },
+        "ballot_request_general_only_checkbox": {
+            "type": "boolean",
+            "title": "General Election Only",
+            "format": "checkbox"
+        },
+        "ballot_request_mulitple_elections_checkbox": {
+            "type": "boolean",
+            "title": "Any election held between these dates (enter below)",
+            "format": "checkbox"
+        },
+        "ballot_request_mulitple_elections_starting_year": {
+            "type": "number",
+            "title": "Any election held between these dates: enter first date",
+            "format": "date"
+        },
+        "ballot_request_mulitple_elections_ending_year": {
+            "type": "number",
+            "title": "Any election held between these dates: enter end date",
+            "format": "date"
+        },
+        "witness_title": {
+            "type": "string",
+            "title": "Assistance Required (only complete, if applicable)",
+            "format": "title"
+        },
+        "witness_description": {
+            "type": "string",
+            "title": "If applicant is unable to sign because of illness, physical disability or inability to read, the following statement must be executed. By my mark, duly witnessed hereunder, I hereby state that I am unable to sign my applica- tion for an absentee ballot without assistance because I am unable to write by reason of my illness or physical disability or because I am unable to read/  I have made, or have the assistance in making, my mark in lieu of my signature/ (No power of attorney or preprinted name stamps allowed/ See detailed instructions/) ",
+            "format": "hidden-field"
+        },
+        "witness_date": {
+            "type": "number",
+            "title": "Date of Mark",
+            "format": "date"
+        },
+        "assistance_required_voter_name": {
+            "type": "string",
+            "title": "Name of Voter requiring assistance"
+        },
+        "witness_address": {
+            "type": "string",
+            "title": "Address of witness"
+        }
+    }
+}
