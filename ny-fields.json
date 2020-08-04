@@ -36,14 +36,10 @@
             "title": "Address where you live",
             "format": "hidden-field"
         },
-        "reg_address_line_1": {
+        //tech will need to split street address and apt into two lines for the form//
+        "reg_address": {
             "type": "string",
             "title": "Residence Street Address",
-            "br_required": true
-        },
-        "reg_address_line_2": {
-            "type": "string",
-            "title": "Apt",
             "br_required": true
         },
         "reg_city": {
@@ -105,21 +101,10 @@
             "type": "string",
             "title": "Address where your ballot will be mailed to",
             "format": "hidden-field"
-        },
-        "mail_address_line_1": {
-            "type": "number",
-            "title": "Mailing Street Number",
-            "br_required": true
-        },
-        //note in the form this is only the street name field not street number and name//
+        //note in the form this is will need to be split into three lines, street name, street number and apt//
         "mail_address": {
             "type": "string",
-            "title": "Mailing Street Name",
-            "br_required": true
-        },
-        "mail_address_line_2": {
-            "type": "string",
-            "title": "Mailing Apt",
+            "title": "Mailing Street Address",
             "br_required": true
         },
         "mail_city": {
