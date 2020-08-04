@@ -161,7 +161,7 @@
         },
         "witness_description": {
             "type": "string",
-            "title": "If applicant is unable to sign because of illness, physical disability or inability to read, the following statement must be executed. By my mark, duly witnessed hereunder, I hereby state that I am unable to sign my applica- tion for an absentee ballot without assistance because I am unable to write by reason of my illness or physical disability or because I am unable to read/  I have made, or have the assistance in making, my mark in lieu of my signature/ (No power of attorney or preprinted name stamps allowed/ See detailed instructions/) ",
+            "title": "If applicant is unable to sign because of illness, physical disability or inability to read, the following statement must be executed. By my mark, duly witnessed hereunder, I hereby state that I am unable to sign my application for an absentee ballot without assistance because I am unable to write by reason of my illness or physical disability or because I am unable to read/ I have made, or have the assistance in making, my mark in lieu of my signature/ (No power of attorney or preprinted name stamps allowed/) ",
             "format": "hidden-field"
         },
         "witness_date": {
