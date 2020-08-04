@@ -102,6 +102,7 @@
             "title": "Address where your ballot will be mailed to",
             "format": "hidden-field"
         //note in the form this is will need to be split into three lines, street name, street number and apt//
+        },
         "mail_address": {
             "type": "string",
             "title": "Mailing Street Address",
