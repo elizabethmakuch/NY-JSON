@@ -19,10 +19,9 @@
         "suffix": {
             "type": "string",
             "title": "Suffix",
-            "br_required": true
         },
-        "birth_date": {
-            "type": "number",
+        "birthday": {
+            "type": "string",
             "title": "Date of Birth",
             "format": "date",
             "br_required": true
@@ -53,7 +52,7 @@
             "br_required": true
         },
         "reg_zipcode": {
-            "type": "number",
+            "type": "string",
             "title": "Zip Code",
             "format": "zipcode",
             "br_required": true
@@ -88,7 +87,7 @@
             "title": "I authorize ___ to pick up my ballot at the board of elections (if yes, enter name of messenger below)",
             "format": "checkbox"
         },
-        "Messenger_full_name": {
+        "messenger_full_name": {
             "type": "string",
             "title": "I authorize ___ to pick up my ballot at the board of elections (insert full name of messenger)"
         },
@@ -102,7 +101,7 @@
             "title": "Ballot Mailing Address",
             "format": "title"
         },
-        "mail_info": {
+        "mail_info_description": {
             "type": "string",
             "title": "Address where your ballot will be mailed to",
             "format": "hidden-field"
@@ -112,6 +111,7 @@
             "title": "Mailing Street Number",
             "br_required": true
         },
+        //note in the form this is only the street name field not street number and name//
         "mail_address": {
             "type": "string",
             "title": "Mailing Street Name",
@@ -133,13 +133,13 @@
             "br_required": true
         },
         "mail_zip": {
-            "type": "number",
+            "type": "string",
             "title": "Mailing Zip Code",
             "format": "zipcode",
             "br_required": true
         },
         "today_date": {
-            "type": "number",
+            "type": "string",
             "title": "Today's Date (Date of Signature)",
             "format": "date",
             "br_required": true
@@ -160,12 +160,12 @@
             "format": "checkbox"
         },
         "ballot_request_mulitple_elections_starting_year": {
-            "type": "number",
+            "type": "string",
             "title": "Any election held between these dates: enter first date",
             "format": "date"
         },
         "ballot_request_mulitple_elections_ending_year": {
-            "type": "number",
+            "type": "string",
             "title": "Any election held between these dates: enter end date",
             "format": "date"
         },
@@ -180,7 +180,7 @@
             "format": "hidden-field"
         },
         "witness_date": {
-            "type": "number",
+            "type": "string",
             "title": "Date of Mark",
             "format": "date"
         },
