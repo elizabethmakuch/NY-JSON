@@ -1,0 +1,28 @@
+{
+	"fieldnames": [
+	{
+		"name": "absent",
+		"maps_to": "absent"
+	},
+	{
+		"name": "temporary illness disability",
+		"maps_to": "temporary disability"
+	},
+	{
+		"name": "permanent illness disability",
+		"maps_to": "permanent illness"
+	},
+	{
+		"name": "care provider",
+		"maps_to": "care_provider"
+	},
+	{
+		"name": "VA patient",
+		"maps_to": "vetern_patient"
+	},
+	{
+		"name": "incarcerated",
+		"maps_to": "incarcerated person"
+	}
+	]
+}

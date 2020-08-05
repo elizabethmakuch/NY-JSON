@@ -1,0 +1,60 @@
+{
+    "fieldnames": [
+        {
+            "name": "last name or surname",
+            "maps_to": "last_name"
+        },
+        {
+            "name": "first name",
+            "maps_to": "first_name"
+        },
+        {
+            "name": "middle initial",
+            "maps_to": "middle_name"
+        },
+        {
+            "name": "suffix",
+            "maps_to": "suffix"
+        },
+        {
+            "name": "date of birth",
+            "maps_to": "birth_date"
+        },
+        {
+            "name": "city (Residence)",
+            "maps_to": "reg_city"
+        },
+        {
+            "name": "zip code (Residence)",
+            "maps_to": "reg_zipcode"
+        },
+        {
+            "name": "county where you live",
+            "maps_to": "reg_county"
+        },
+        {
+            "name": "email (optional)",
+            "maps_to": "email"
+        },
+        {
+            "name": "phone number (optional)",
+            "maps_to": "phone"
+        },
+        {
+            "name": "street name (General (or Special) Election Ballot Mailing Address)",
+            "maps_to": "mail_address"
+        },
+        {
+            "name": "city (General (or Special) Election Ballot Mailing Address)",
+            "maps_to": "mail_city"
+        },
+        {
+            "name": "state (General (or Special) Election Ballot Mailing Address)",
+            "maps_to": "mail_state"
+        },
+        {
+            "name": "Date (Applicant Signed)",
+            "maps_to": "today_date"
+        }
+    ]
+}
