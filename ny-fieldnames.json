@@ -18,7 +18,11 @@
         },
         {
             "name": "date of birth",
-            "maps_to": "birth_date"
+            "maps_to": "birthday"
+        },
+        {
+            "name": "street (Residence)",
+            "maps_to": "reg_address"
         },
         {
             "name": "city (Residence)",
